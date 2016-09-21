@@ -8,7 +8,7 @@ addMaddenBonus = function (aP) {
   #aP = avgPlayer
   
 
-  mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&filter=iteration:3&limit=20000')$docs
+  mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&filter=iteration:4&limit=20000')$docs
   #mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&&limit=20000')$docs
   #temp = mad // mad=temp
   str(mad)

@@ -226,4 +226,4 @@ BestCombos.Names$PredictedPoints = BestCombos.Key$PredictedPoints
 
 
 #BestCombos.FP = data.frame(QB.Name=as.character(),RB1.Name=as.character(),RB2.Name=as.character(),WR1.Name=as.character(),WR2.Name=as.character(),WR3.Name=as.character(),TE.Name=as.character(),K.Name=as.character(),D.Name=as.character(),Salary=as.integer(),PredictedPoints=as.double(),stringsAsFactors=FALSE)
-write.csv(BestCombos.Names,'Exports/WEEK2_ANALYSIS_ALL.csv',row.names=FALSE)
+write.csv(BestCombos.Names,'Exports/WEEK3_ANALYSIS.csv',row.names=FALSE)
