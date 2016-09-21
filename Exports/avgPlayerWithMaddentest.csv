@@ -1,0 +1,309 @@
+"Key","mean.old","min","max","freq","Id","Name","Position","Source","Injury Indicator","Injury Details","PredictedPoints","Salary","Team","Opponent","NameRM","Rank","Bonus","mean"
+"WRodellbeckhamjr",18.8,18.8,18.8,1,"16345-31360","Odell Beckham Jr.","WR","FanDuel","","",9.300000191,9400,"NYG","NO","odellbeckhamjr",1,0.5,28.2
+"WRjuliojones",17.05,17.05,17.05,1,"16345-14190","Julio Jones","WR","FanDuel","","",14.60000038,9300,"ATL","OAK","juliojones",1,0.45,24.7225
+"QBdrewbrees",20.96,20.96,20.96,1,"16345-6504","Drew Brees","QB","FanDuel","","",31.42000008,9200,"NO","NYG","drewbrees",1,0.55,32.488
+"WRantoniobrown",17.87,17.87,17.87,1,"16345-11612","Antonio Brown","WR","FanDuel","","",28.60000038,9200,"PIT","CIN","antoniobrown",1,0.5,26.805
+"QBcamnewton",24.73,24.73,24.73,1,"16345-14185","Cam Newton","QB","FanDuel","","",22.15999985,9000,"CAR","SF","camnewton",1,0.7625,43.586625
+"RBdavidjohnson",17.63,17.63,17.63,1,"16345-62497","David Johnson","RB","FanDuel","","",21.20000076,9000,"ARI","TB","davidjohnson",1,0,17.63
+"RBdavidjohnson",17.63,17.63,17.63,1,"16345-62497","David Johnson","RB","FanDuel","","",21.20000076,9000,"ARI","TB","davidjohnson",3,0,17.63
+"WRajgreen",15.72,15.72,15.72,1,"16345-14187","A.J. Green","WR","FanDuel","","",30,8900,"CIN","PIT","ajgreen",1,0.6,25.152
+"QBaaronrodgers",20.39,20.39,20.39,1,"16345-6894","Aaron Rodgers","QB","FanDuel","","",23.55999947,8700,"GB","MIN","aaronrodgers",1,0.6875,34.408125
+"QBandrewluck",18.7,18.7,18.7,1,"16345-21939","Andrew Luck","QB","FanDuel","","",35.5,8500,"IND","DEN","andrewluck",1,-0.025,18.2325
+"QBrussellwilson",19.22,19.22,19.22,1,"16345-22015","Russell Wilson","QB","FanDuel","","",12.92000008,8400,"SEA","LA","russellwilson",1,0.7375,33.39475
+"WRbrandincooks",13.79,13.79,13.79,1,"16345-29501","Brandin Cooks","WR","FanDuel","","",30.39999962,8400,"NO","NYG","brandincooks",1,-0.15,11.7215
+"RBtoddgurley",13.27,13.27,13.27,1,"16345-30447","Todd Gurley","RB","FanDuel","","",4.699999809,8400,"LA","SEA","toddgurley",1,0.135714285714285,15.0709285714286
+"QBbenroethlisberger",19.85,19.85,19.85,1,"16345-6589","Ben Roethlisberger","QB","FanDuel","","",22.79999924,8300,"PIT","CIN","benroethlisberger",1,0.6125,32.008125
+"QBderekcarr",19.82,19.82,19.82,1,"16345-45859","Derek Carr","QB","FanDuel","","",22.36000061,8300,"OAK","ATL","derekcarr",1,0.125,22.2975
+"WRdeandrehopkins",14.76,14.76,14.76,1,"16345-16606","DeAndre Hopkins","WR","FanDuel","","",13.89999962,8300,"HOU","KC","deandrehopkins",1,0.5,22.14
+"QBcarsonpalmer",20.19,20.19,20.19,1,"16345-6748","Carson Palmer","QB","FanDuel","","",18.94000053,8200,"ARI","TB","carsonpalmer",1,0.525,30.78975
+"RBadrianpeterson",14.67,14.67,14.67,1,"16345-6703","Adrian Peterson","RB","FanDuel","","",3.099999905,8200,"MIN","GB","adrianpeterson",1,0.564285714285715,22.9480714285714
+"WRallenrobinson",13.89,13.89,13.89,1,"16345-28643","Allen Robinson","WR","FanDuel","","",10.19999981,8200,"JAX","SD","allenrobinson",1,0.1,15.279
+"WRjordynelson",12.95,12.95,12.95,1,"16345-6893","Jordy Nelson","WR","FanDuel","","",12.19999981,8200,"GB","MIN","jordynelson",1,0.45,18.7775
+"QBelimanning",21.52,21.52,21.52,1,"16345-6826","Eli Manning","QB","FanDuel","","",19.28000069,8100,"NYG","NO","elimanning",1,0.1375,24.479
+"QBblakebortles",19.53,19.53,19.53,1,"16345-34308","Blake Bortles","QB","FanDuel","","",16,8100,"JAX","SD","blakebortles",1,0.0625,20.750625
+"WRmikeevans",13.2,13.2,13.2,1,"16345-32384","Mike Evans","WR","FanDuel","","",18.39999962,8100,"TB","ARI","mikeevans",1,-0.3,9.24
+"QBmattryan",17.16,17.16,17.16,1,"16345-6616","Matt Ryan","QB","FanDuel","","",24.36000061,7900,"ATL","OAK","mattryan",1,0.05,18.018
+"RBezekielelliott",14.68,14.68,14.68,1,"16345-38791","Ezekiel Elliott","RB","FanDuel","","",11.69999981,7900,"DAL","WAS","ezekielelliott",1,0.25,18.35
+"WRamaricooper",13.28,13.28,13.28,1,"16345-31001","Amari Cooper","WR","FanDuel","","",18.70000076,7900,"OAK","ATL","amaricooper",1,-0.4,7.968
+"QBmatthewstafford",20.32,20.32,20.32,1,"16345-6654","Matthew Stafford","QB","FanDuel","","",26.10000038,7800,"DET","TEN","matthewstafford",1,0.2875,26.162
+"QBkirkcousins",18.49,18.49,18.49,1,"16345-22038","Kirk Cousins","QB","FanDuel","","",11.96000004,7800,"WAS","DAL","kirkcousins",1,0.175,21.72575
+"QBandydalton",17.38,17.38,17.38,1,"16345-14225","Andy Dalton","QB","FanDuel","","",18.34000015,7800,"CIN","PIT","andydalton",1,0.4375,24.98375
+"RBcjanderson",17.33,17.33,17.33,1,"16345-29249","C.J. Anderson","RB","FanDuel","","",27.89999962,7800,"DEN","IND","cjanderson",1,0.528571428571428,26.4901428571429
+"WRalshonjeffery",14.26,14.26,14.26,1,"16345-21980","Alshon Jeffery","WR","FanDuel","","",12.5,7800,"CHI","PHI","alshonjeffery",1,0.7,24.242
+"QBphiliprivers",18.28,18.28,18.28,1,"16345-7968","Philip Rivers","QB","FanDuel","","",14.61999989,7700,"SD","JAX","philiprivers",1,0.25,22.85
+"RBlamarmiller",15.72,15.72,15.72,1,"16345-22037","Lamar Miller","RB","FanDuel","","",13.69999981,7700,"HOU","KC","lamarmiller",1,0.135714285714285,17.8534285714286
+"WRdezbryant",12.13,12.13,12.13,1,"16345-11435","Dez Bryant","WR","FanDuel","","",1.299999952,7700,"DAL","WAS","dezbryant",1,-0.2,9.704
+"QBjameiswinston",17.42,17.42,17.42,1,"16345-24849","Jameis Winston","QB","FanDuel","","",26.54000092,7600,"TB","ARI","jameiswinston",1,-0.175,14.3715
+"RBdeangelowilliams",16.33,16.33,16.33,1,"16345-6732","DeAngelo Williams","RB","FanDuel","","",32.09999847,7600,"PIT","CIN","deangelowilliams",2,-0.164285714285715,13.6472142857143
+"TEgregolsen",12.29,12.29,12.29,1,"16345-6914","Greg Olsen","TE","FanDuel","","",10.80000019,7600,"CAR","SF","gregolsen",1,0.516666666666666,18.6398333333333
+"QBmarcusmariota",18.07,18.07,18.07,1,"16345-29358","Marcus Mariota","QB","FanDuel","","",17.73999977,7500,"TEN","DET","marcusmariota",1,-0.0625,16.940625
+"WRkelvinbenjamin",12.93,12.93,12.93,1,"16345-24929","Kelvin Benjamin","WR","FanDuel","","",18.10000038,7500,"CAR","SF","kelvinbenjamin",1,0.1,14.223
+"QBjoeflacco",18.22,18.22,18.22,1,"16345-6714","Joe Flacco","QB","FanDuel","","",12.02000046,7400,"BAL","CLE","joeflacco",1,0.2625,23.00275
+"RBdemarcomurray",13.08,13.08,13.08,1,"16345-14254","DeMarco Murray","RB","FanDuel","","",20.20000076,7400,"TEN","DET","demarcomurray",2,0.342857142857143,17.5645714285714
+"TEjordanreed",12.49,12.49,12.49,1,"16345-30298","Jordan Reed","TE","FanDuel","","",9.899999619,7400,"WAS","DAL","jordanreed",1,0.416666666666666,17.6941666666667
+"WRlarryfitzgerald",12.45,12.45,12.45,1,"16345-6883","Larry Fitzgerald","WR","FanDuel","","",24.10000038,7400,"ARI","TB","larryfitzgerald",1,0.35,16.8075
+"RBdevontafreeman",12.29,12.29,12.29,1,"16345-24920","Devonta Freeman","RB","FanDuel","","",6,7400,"ATL","OAK","devontafreeman",2,0.171428571428572,14.3968571428571
+"WRrandallcobb",11.97,11.97,11.97,1,"16345-14257","Randall Cobb","WR","FanDuel","","",9.800000191,7400,"GB","MIN","randallcobb",2,0.3,15.561
+"QBbrockosweiler",16.58,16.58,16.58,1,"16345-21994","Brock Osweiler","QB","FanDuel","","",17.63999939,7200,"HOU","KC","brockosweiler",1,-0.225,12.8495
+"QBjimmygaroppolo",16.86,16.86,16.86,1,"16345-54604","Jimmy Garoppolo","QB","FanDuel","","",14.56000042,7100,"NE","MIA","jimmygaroppolo",2,-0.2875,12.01275
+"RBlataviusmurray",13.66,13.66,13.66,1,"16345-34331","Latavius Murray","RB","FanDuel","","",13.69999981,7100,"OAK","ATL","lataviusmurray",1,0.285714285714285,17.5628571428571
+"RBdougmartin",12.92,12.92,12.92,1,"16345-21970","Doug Martin","RB","FanDuel","","",12.10000038,7100,"TB","ARI","dougmartin",1,0.628571428571429,21.0411428571429
+"WRjulianedelman",11.54,11.54,11.54,1,"16345-7859","Julian Edelman","WR","FanDuel","","",11.69999981,7100,"NE","MIA","julianedelman",1,0.65,19.041
+"QBalexsmith",16.85,16.85,16.85,1,"16345-8005","Alex Smith","QB","FanDuel","","",29.02000046,7000,"KC","HOU","alexsmith",1,0.1,18.535
+"QBdakprescott",16.69,16.69,16.69,1,"16345-31716","Dak Prescott","QB","FanDuel","","",10.27999973,7000,"DAL","WAS","dakprescott",2,-0.475,8.76225
+"RBmarkingram",14.32,14.32,14.32,1,"16345-14211","Mark Ingram","RB","FanDuel","","",9.699999809,7000,"NO","NYG","markingram",1,0.235714285714285,17.6954285714286
+"WRdougbaldwin",12.53,12.53,12.53,1,"16345-14626","Doug Baldwin","WR","FanDuel","","",19.70000076,7000,"SEA","LA","dougbaldwin",1,0.4,17.542
+"RBeddielacy",12.52,12.52,12.52,1,"16345-30968","Eddie Lacy","RB","FanDuel","","",8.300000191,7000,"GB","MIN","eddielacy",1,0.0357142857142854,12.9671428571429
+"WRmichaelfloyd",11.05,11.05,11.05,1,"16345-21952","Michael Floyd","WR","FanDuel","","",7.599999905,7000,"ARI","TB","michaelfloyd",3,0,11.05
+"WRtyhilton",10.66,10.66,10.66,1,"16345-22031","T.Y. Hilton","WR","FanDuel","","",10.89999962,7000,"IND","DEN","tyhilton",1,-0.2,8.528
+"WRjordanmatthews",12.23,12.23,12.23,1,"16345-30837","Jordan Matthews","WR","FanDuel","","",20.89999962,6900,"PHI","CHI","jordanmatthews",1,0.35,16.5105
+"WRjeremymaclin",11.44,11.44,11.44,1,"16345-7283","Jeremy Maclin","WR","FanDuel","","",14.69999981,6900,"KC","HOU","jeremymaclin",1,-0.2,9.152
+"WRallenhurns",9.89,9.89,9.89,1,"16345-25760","Allen Hurns","WR","FanDuel","","",9.5,6900,"JAX","SD","allenhurns",2,0.1,10.879
+"QBjaycutler",16.12,16.12,16.12,1,"16345-6898","Jay Cutler","QB","FanDuel","","",12.84000015,6800,"CHI","PHI","jaycutler",1,-0.0375,15.5155
+"QBsambradford",14.07,14.07,14.07,1,"16345-11414","Sam Bradford","QB","FanDuel","","",14.92142814,6800,"MIN","GB","sambradford",2,-0.25,10.5525
+"RBspencerware",13.79,13.79,13.79,1,"16345-31459","Spencer Ware","RB","FanDuel","","",29.39999962,6800,"KC","HOU","spencerware",2,-0.0357142857142854,13.2975
+"QBryantannehill",14.72,14.72,14.72,1,"16345-21948","Ryan Tannehill","QB","FanDuel","","",15.14000034,6700,"MIA","NE","ryantannehill",1,-0.2,11.776
+"WRgoldentate",11.19,11.19,11.19,1,"16345-11485","Golden Tate","WR","FanDuel","","",7.800000191,6700,"DET","TEN","goldentate",1,0.45,16.2255
+"WRemmanuelsanders",10.92,10.92,10.92,1,"16345-11505","Emmanuel Sanders","WR","FanDuel","","",7.400000095,6700,"DEN","IND","emmanuelsanders",1,-0.15,9.282
+"RBameerabdullah",10.15,10.15,10.15,1,"16345-27229","Ameer Abdullah","RB","FanDuel","","",20.5,6700,"DET","TEN","ameerabdullah",3,-0.0785714285714285,9.3525
+"WRdontemoncrief",10.1,10.1,10.1,1,"16345-31561","Donte Moncrief","WR","FanDuel","","",15.39999962,6700,"IND","DEN","dontemoncrief",2,-0.6,4.04
+"WRmohamedsanu",8.73,8.73,8.73,1,"16345-22018","Mohamed Sanu","WR","FanDuel","","",18.5,6700,"ATL","OAK","mohamedsanu",2,-0.3,6.111
+"TEdelaniewalker",12.25,12.25,12.25,1,"16345-6863","Delanie Walker","TE","FanDuel","","",5.699999809,6600,"TEN","DET","delaniewalker",1,0.65,20.2125
+"WRdeseanjackson",11.25,11.25,11.25,1,"16345-6739","DeSean Jackson","WR","FanDuel","","",13.19999981,6600,"WAS","DAL","deseanjackson",1,0.35,15.1875
+"RBmelvingordon",10.93,10.93,10.93,1,"16345-28900","Melvin Gordon","RB","FanDuel","","",17.70000076,6600,"SD","JAX","melvingordon",3,-0.15,9.2905
+"RBthomasrawls",10.26,10.26,10.26,1,"16345-28095","Thomas Rawls","RB","FanDuel","","",7.300000191,6600,"SEA","LA","thomasrawls",1,0.0142857142857146,10.4065714285714
+"RBjeremyhill",9.81,9.81,9.81,1,"16345-31397","Jeremy Hill","RB","FanDuel","","",9.100000381,6600,"CIN","PIT","jeremyhill",2,0.171428571428572,11.4917142857143
+"WRjohnbrown",8.88,8.88,8.88,1,"16345-54606","John Brown","WR","FanDuel","","",1.299999952,6600,"ARI","TB","johnbrown",2,0.45,12.876
+"RBjustinforsett",8.56,8.56,8.56,1,"16345-6857","Justin Forsett","RB","FanDuel","","",6.599999905,6600,"BAL","CLE","justinforsett",2,0.428571428571428,12.2285714285714
+"RBjeremylangford",12.81,12.81,12.81,1,"16345-28202","Jeremy Langford","RB","FanDuel","","",13.30000019,6500,"CHI","PHI","jeremylangford",1,-0.421428571428572,7.4115
+"RBtjyeldon",12.11,12.11,12.11,1,"16345-31061","T.J. Yeldon","RB","FanDuel","","",14.89999962,6500,"JAX","SD","tjyeldon",1,0.05,12.7155
+"WRjarvislandry",11.64,11.64,11.64,1,"16345-31394","Jarvis Landry","WR","FanDuel","","",9.399999619,6500,"MIA","NE","jarvislandry",1,0.15,13.386
+"WRstefondiggs",9.97,9.97,9.97,1,"16345-25079","Stefon Diggs","WR","FanDuel","","",13.69999981,6500,"MIN","GB","stefondiggs",1,-0.25,7.4775
+"QBtrevorsiemian",16.11,16.11,16.11,1,"16345-28434","Trevor Siemian","QB","FanDuel","","",11.11999989,6400,"DEN","IND","trevorsiemian",2,-0.4375,9.061875
+"RBdannywoodhead",12.97,12.97,12.97,1,"16345-9421","Danny Woodhead","RB","FanDuel","","",20.5,6400,"SD","JAX","dannywoodhead",1,0.15,14.9155
+"QBshaunhill",9.82,9.82,9.82,1,"16345-6844","Shaun Hill","QB","FanDuel","","",10.23999977,6400,"MIN","GB","shaunhill",3,-0.75,2.455
+"TEjuliusthomas",9.64,9.64,9.64,1,"16345-14317","Julius Thomas","TE","FanDuel","","",14.89999962,6400,"JAX","SD","juliusthomas",1,0.0833333333333336,10.4433333333333
+"RBrashadjennings",13.12,13.12,13.12,1,"16345-8052","Rashad Jennings","RB","FanDuel","","",8.300000191,6300,"NYG","NO","rashadjennings",2,0.0642857142857146,13.9634285714286
+"RBryanmathews",13.11,13.11,13.11,1,"16345-11425","Ryan Mathews","RB","FanDuel","","",13.69999981,6300,"PHI","CHI","ryanmathews",1,0.121428571428572,14.7019285714286
+"TEtraviskelce",11.25,11.25,11.25,1,"16345-33076","Travis Kelce","TE","FanDuel","","",10.39999962,6300,"KC","HOU","traviskelce",1,0.133333333333334,12.75
+"WRtylerlockett",8.77,8.77,8.77,1,"16345-27050","Tyler Lockett","WR","FanDuel","","",3.200000048,6300,"SEA","LA","tylerlockett",3,0,8.77
+"WRtavonaustin",8.06,8.06,8.06,1,"16345-26458","Tavon Austin","WR","FanDuel","","",3.5,6300,"LA","SEA","tavonaustin",1,-0.6,3.224
+"QBblainegabbert",13.27,13.27,13.27,1,"16345-14194","Blaine Gabbert","QB","FanDuel","","",14,6200,"SF","CAR","blainegabbert",1,-0.1875,10.781875
+"WRmichaelcrabtree",10.81,10.81,10.81,1,"16345-9392","Michael Crabtree","WR","FanDuel","","",14.19999981,6200,"OAK","ATL","michaelcrabtree",2,0.3,14.053
+"WRsterlingshepard",10.44,10.44,10.44,1,"16345-27477","Sterling Shepard","WR","FanDuel","","",11.80000019,6200,"NYG","NO","sterlingshepard",3,0,10.44
+"WRwillfuller",9.49,9.49,9.49,1,"16345-42028","Will Fuller","WR","FanDuel","","",19.20000076,6200,"HOU","KC","willfuller",2,0,9.49
+"RBmattjones",8.94,8.94,8.94,1,"16345-30244","Matt Jones","RB","FanDuel","","",3.799999952,6200,"WAS","DAL","mattjones",1,-0.1,8.046
+"TEdwayneallen",7.23,7.23,7.23,1,"16345-22004","Dwayne Allen","TE","FanDuel","","",15.30000019,6200,"IND","DEN","dwayneallen",1,-0.416666666666666,4.2175
+"WRpierregarcon",7.06,7.06,7.06,1,"16345-6774","Pierre Garcon","WR","FanDuel","","",8.100000381,6200,"WAS","DAL","pierregarcon",2,0.4,9.884
+"RBcarloshyde",10.63,10.63,10.63,1,"16345-28473","Carlos Hyde","RB","FanDuel","","",22.29999924,6100,"SF","CAR","carloshyde",1,-0.1,9.567
+"WRtravisbenjamin",9.53,9.53,9.53,1,"16345-22035","Travis Benjamin","WR","FanDuel","","",6.699999809,6100,"SD","JAX","travisbenjamin",1,-0.15,8.1005
+"WRmikewallace",9.23,9.23,9.23,1,"16345-6607","Mike Wallace","WR","FanDuel","","",17.70000076,6100,"BAL","CLE","mikewallace",3,0,9.23
+"RBtevincoleman",8.95,8.95,8.95,1,"16345-27776","Tevin Coleman","RB","FanDuel","","",14.19999981,6100,"ATL","OAK","tevincoleman",3,-0.328571428571429,6.00928571428571
+"QBjoshmccown",16.1,16.1,16.1,1,"16345-6803","Josh McCown","QB","FanDuel","","",17.02000046,6000,"CLE","BAL","joshmccown",1,-0.5375,7.44625
+"RBlegarretteblount",10.13,10.13,10.13,1,"16345-11779","LeGarrette Blount","RB","FanDuel","","",11,6000,"NE","MIA","legarretteblount",2,0.0285714285714285,10.4194285714286
+"WRtajaesharpe",9.68,9.68,9.68,1,"16345-47523","Tajae Sharpe","WR","FanDuel","","",11.10000038,6000,"TEN","DET","tajaesharpe",3,0,9.68
+"WRcoreycoleman",8.98,8.98,8.98,1,"16345-31732","Corey Coleman","WR","FanDuel","","",7.900000095,6000,"CLE","BAL","coreycoleman",2,0.1,9.878
+"TEgarybarnidge",8.9,8.9,8.9,1,"16345-6422","Gary Barnidge","TE","FanDuel","","",0,6000,"CLE","BAL","garybarnidge",1,0.0166666666666664,9.04833333333333
+"WRbrandonlafell",6.82,6.82,6.82,1,"16345-11495","Brandon LaFell","WR","FanDuel","","",11.10000038,6000,"CIN","PIT","brandonlafell",2,0.2,8.184
+"TEantoniogates",10.4,10.4,10.4,1,"16345-7965","Antonio Gates","TE","FanDuel","","",3.5,5900,"SD","JAX","antoniogates",1,0.2,12.48
+"RBtheoriddick",10.25,10.25,10.25,1,"16345-33465","Theo Riddick","RB","FanDuel","","",25.29999924,5900,"DET","TEN","theoriddick",2,0.0714285714285715,10.9821428571429
+"TEjasonwitten",8.45,8.45,8.45,1,"16345-6641","Jason Witten","TE","FanDuel","","",11.10000038,5900,"DAL","WAS","jasonwitten",1,0.233333333333334,10.4216666666667
+"RBisaiahcrowell",8.94,8.94,8.94,1,"16345-54684","Isaiah Crowell","RB","FanDuel","","",14.80000019,5800,"CLE","BAL","isaiahcrowell",2,-0.121428571428572,7.85442857142857
+"WRkevinwhite",7.57,7.57,7.57,1,"16345-38514","Kevin White","WR","FanDuel","","",4.900000095,5800,"CHI","PHI","kevinwhite",4,0,7.57
+"WRkamaraiken",7.25,7.25,7.25,1,"16345-14905","Kamar Aiken","WR","FanDuel","","",2.400000095,5800,"BAL","CLE","kamaraiken",2,-0.1,6.525
+"RBcharcandrickwest",4.77,4.77,4.77,1,"16345-54687","Charcandrick West","RB","FanDuel","","",5.300000191,5800,"KC","HOU","charcandrickwest",3,-0.0857142857142854,4.36114285714286
+"RBfrankgore",8.81,8.81,8.81,1,"16345-6840","Frank Gore","RB","FanDuel","","",9.800000191,5700,"IND","DEN","frankgore",1,0.0142857142857146,8.93585714285715
+"WRvictorcruz",7.43,7.43,7.43,1,"16345-11999","Victor Cruz","WR","FanDuel","","",11.39999962,5700,"NYG","NO","victorcruz",2,0.35,10.0305
+"WRdavanteadams",5.78,5.78,5.78,1,"16345-45889","Davante Adams","WR","FanDuel","","",12.5,5700,"GB","MIN","davanteadams",3,0,5.78
+"WRanquanboldin",5.65,5.65,5.65,1,"16345-6479","Anquan Boldin","WR","FanDuel","","",5,5700,"DET","TEN","anquanboldin",3,0,5.65
+"WRdevinfunchess",5.63,5.63,5.63,1,"16345-28080","Devin Funchess","WR","FanDuel","","",1.399999976,5700,"CAR","SF","devinfunchess",4,0,5.63
+"RBjameswhite",8.87,8.87,8.87,1,"16345-28930","James White","RB","FanDuel","","",6.900000095,5600,"NE","MIA","jameswhite",4,-0.221428571428572,6.90592857142857
+"RBcharlessims",8.36,8.36,8.36,1,"16345-31871","Charles Sims","RB","FanDuel","","",11.60000038,5600,"TB","ARI","charlessims",2,0.228571428571428,10.2708571428571
+"TEcobyfleener",7.71,7.71,7.71,1,"16345-21971","Coby Fleener","TE","FanDuel","","",1.100000024,5600,"NO","NYG","cobyfleener",1,0.366666666666666,10.537
+"WRnelsonagholor",6.56,6.56,6.56,1,"16345-29683","Nelson Agholor","WR","FanDuel","","",13.69999981,5600,"PHI","CHI","nelsonagholor",3,0,6.56
+"RBchrisjohnson",2.1,2.1,2.1,1,"16345-6566","Chris Johnson","RB","FanDuel","","",0.200000003,5600,"ARI","TB","chrisjohnson",3,-0.214285714285715,1.65
+"RBgiovanibernard",9.99,9.99,9.99,1,"16345-25290","Giovani Bernard","RB","FanDuel","","",4,5500,"CIN","PIT","giovanibernard",1,0.421428571428572,14.2000714285714
+"WRelirogers",8.23,8.23,8.23,1,"16345-33244","Eli Rogers","WR","FanDuel","","",14.89999962,5500,"PIT","CIN","elirogers",5,0,8.23
+"TEericebron",7.73,7.73,7.73,1,"16345-25272","Eric Ebron","TE","FanDuel","","",13.10000038,5500,"DET","TEN","ericebron",1,-0.433333333333334,4.38033333333333
+"WRphillipdorsett",7.38,7.38,7.38,1,"16345-25813","Phillip Dorsett","WR","FanDuel","","",11.39999962,5500,"IND","DEN","phillipdorsett",3,0,7.38
+"TEmartellusbennett",6.05,6.05,6.05,1,"16345-6448","Martellus Bennett","TE","FanDuel","","",2.900000095,5500,"NE","MIA","martellusbennett",1,0.35,8.1675
+"TEjimmygraham",4.95,4.95,4.95,1,"16345-11512","Jimmy Graham","TE","FanDuel","","",1.600000024,5500,"SEA","LA","jimmygraham",1,0.833333333333334,9.075
+"WRdontrelleinman",4.86,4.86,4.86,1,"16345-14645","Dontrelle Inman","WR","FanDuel","","",1.100000024,5500,"SD","JAX","dontrelleinman",3,0,4.86
+"WRdannyamendola",3.53,3.53,3.53,1,"16345-8117","Danny Amendola","WR","FanDuel","","",6.300000191,5500,"NE","MIA","dannyamendola",2,0.55,5.4715
+"WRvincentjackson",8.46,8.46,8.46,1,"16345-7953","Vincent Jackson","WR","FanDuel","","",2.799999952,5400,"TB","ARI","vincentjackson",2,0.3,10.998
+"WRtyrellwilliams",8.22,8.22,8.22,1,"16345-62535","Tyrell Williams","WR","FanDuel","","",8.100000381,5400,"SD","JAX","tyrellwilliams",4,0,8.22
+"RBdarrensproles",8,8,8,1,"16345-7972","Darren Sproles","RB","FanDuel","","",4.599999905,5400,"PHI","CHI","darrensproles",2,0.0714285714285715,8.57142857142857
+"WRtorreysmith",7.34,7.34,7.34,1,"16345-14288","Torrey Smith","WR","FanDuel","","",2.299999952,5400,"SF","CAR","torreysmith",1,-0.1,6.606
+"RBterrancewest",7.09,7.09,7.09,1,"16345-54607","Terrance West","RB","FanDuel","","",4.800000191,5400,"BAL","CLE","terrancewest",3,0.0785714285714285,7.64707142857143
+"WRtylerboyd",4.82,4.82,4.82,1,"16345-40669","Tyler Boyd","WR","FanDuel","","",3.400000095,5400,"CIN","PIT","tylerboyd",3,0,4.82
+"RBjordanhoward",2.4,2.4,2.4,1,"16345-42142","Jordan Howard","RB","FanDuel","","",0,5400,"CHI","PHI","jordanhoward",4,-0.921428571428572,0.188571428571428
+"WRrishardmatthews",7.09,7.09,7.09,1,"16345-22163","Rishard Matthews","WR","FanDuel","","",4.099999905,5300,"TEN","DET","rishardmatthews",1,-0.5,3.545
+"WRjermainekearse",6.44,6.44,6.44,1,"16345-22219","Jermaine Kearse","WR","FanDuel","","",8.199999809,5300,"SEA","LA","jermainekearse",2,0.35,8.694
+"WReddieroyal",6.31,6.31,6.31,1,"16345-6768","Eddie Royal","WR","FanDuel","","",13.69999981,5300,"CHI","PHI","eddieroyal",2,0.2,7.572
+"RBderrickhenry",6.07,6.07,6.07,1,"16345-39280","Derrick Henry","RB","FanDuel","","",5.400000095,5300,"TEN","DET","derrickhenry",4,-0.107142857142857,5.41964285714286
+"WRlaquontreadwell",5.88,5.88,5.88,1,"16345-41806","Laquon Treadwell","WR","FanDuel","","",0,5300,"MIN","GB","laquontreadwell",2,-0.2,4.704
+"WRsammiecoates",5.36,5.36,5.36,1,"16345-31241","Sammie Coates","WR","FanDuel","","",6.599999905,5300,"PIT","CIN","sammiecoates",4,0,5.36
+"WRsethroberts",4.23,4.23,4.23,1,"16345-54741","Seth Roberts","WR","FanDuel","","",8.899999619,5300,"OAK","ATL","sethroberts",4,0,4.23
+"RBjamesstarks",3.68,3.68,3.68,1,"16345-11609","James Starks","RB","FanDuel","","",1.799999952,5300,"GB","MIN","jamesstarks",2,-0.214285714285715,2.89142857142857
+"RBtravariscadet",3.51,3.51,3.51,1,"16345-22258","Travaris Cadet","RB","FanDuel","","",9,5300,"NO","NYG","travariscadet",4,-0.364285714285715,2.23135714285714
+"RBalfredmorris",3.17,3.17,3.17,1,"16345-22113","Alfred Morris","RB","FanDuel","","",3.5,5300,"DAL","WAS","alfredmorris",2,0.15,3.6455
+"Kstephengostkowski",8.5,8.5,8.5,1,"16345-7900","Stephen Gostkowski","K","FanDuel","","",14,5200,"NE","MIA","stephengostkowski",1,-0.279166666666666,6.12708333333333
+"RBchristhompson",6.94,6.94,6.94,1,"16345-24891","Chris Thompson","RB","FanDuel","","",10.89999962,5200,"WAS","DAL","christhompson",2,-0.3,4.858
+"TEzachmiller",6,6,6,1,"16345-8050","Zach Miller","TE","FanDuel","","",2.900000095,5200,"CHI","PHI","zachmiller",1,-0.133333333333334,5.2
+"WRkennybritt",5.49,5.49,5.49,1,"16345-6535","Kenny Britt","WR","FanDuel","","",8.699999809,5200,"LA","SEA","kennybritt",2,0.1,6.039
+"TEjackdoyle",5.01,5.01,5.01,1,"16345-39859","Jack Doyle","TE","FanDuel","","",17,5200,"IND","DEN","jackdoyle",2,-0.766666666666666,1.169
+"TEaustinseferianjenkins",4.45,4.45,4.45,1,"16345-16923","Austin Seferian-Jenkins","TE","FanDuel","","",9.5,5200,"TB","ARI","austinseferianjenkins",1,0,4.45
+"RBdevontaebooker",3.13,3.13,3.13,1,"16345-39580","Devontae Booker","RB","FanDuel","","",-1.200000048,5200,"DEN","IND","devontaebooker",3,-0.171428571428572,2.59342857142857
+"RBshanevereen",8.27,8.27,8.27,1,"16345-14245","Shane Vereen","RB","FanDuel","","",7.599999905,5100,"NYG","NO","shanevereen",1,0.0642857142857146,8.80164285714286
+"WRjamisoncrowder",5.39,5.39,5.39,1,"16345-24755","Jamison Crowder","WR","FanDuel","","",8.800000191,5100,"WAS","DAL","jamisoncrowder",3,0,5.39
+"TEjacobtamme",5.1,5.1,5.1,1,"16345-6664","Jacob Tamme","TE","FanDuel","","",8.100000381,5100,"ATL","OAK","jacobtamme",1,-0.166666666666666,4.25
+"TEjaredcook",4.48,4.48,4.48,1,"16345-7761","Jared Cook","TE","FanDuel","","",1.200000048,5100,"GB","MIN","jaredcook",1,-0.05,4.256
+"TElarrydonnell",3.9,3.9,3.9,1,"16345-21123","Larry Donnell","TE","FanDuel","","",8,5100,"NYG","NO","larrydonnell",1,-0.0166666666666664,3.835
+"WRmichaelthomas",8.38,8.38,8.38,1,"16345-28573","Michael Thomas","WR","FanDuel","","",8.800000191,5000,"NO","NYG","michaelthomas",3,0,8.38
+"WRcolebeasley",6.78,6.78,6.78,1,"16345-22288","Cole Beasley","WR","FanDuel","","",10.5,5000,"DAL","WAS","colebeasley",3,0,6.78
+"TEkylerudolph",6.41,6.41,6.41,1,"16345-14237","Kyle Rudolph","TE","FanDuel","","",8.5,5000,"MIN","GB","kylerudolph",1,-0.233333333333334,4.91433333333333
+"RBjerickmckinnon",4.25,4.25,4.25,1,"16345-54608","Jerick McKinnon","RB","FanDuel","","",1.399999976,5000,"MIN","GB","jerickmckinnon",2,-0.185714285714285,3.46071428571429
+"WRalbertwilson",3.52,3.52,3.52,1,"16345-48344","Albert Wilson","WR","FanDuel","","",1.600000024,5000,"KC","HOU","albertwilson",3,0,3.52
+"Kgrahamgano",7.77,7.77,7.77,1,"16345-10744","Graham Gano","K","FanDuel","","",9,4900,"CAR","SF","grahamgano",1,-0.320833333333334,5.277125
+"Kchandlercatanzaro",7.6,7.6,7.6,1,"16345-24569","Chandler Catanzaro","K","FanDuel","","",3,4900,"ARI","TB","chandlercatanzaro",1,-0.0583333333333336,7.15666666666666
+"WRkennystills",6.69,6.69,6.69,1,"16345-27457","Kenny Stills","WR","FanDuel","","",2.099999905,4900,"MIA","NE","kennystills",2,0.15,7.6935
+"TEwilltye",4.69,4.69,4.69,1,"16345-24847","Will Tye","TE","FanDuel","","",3.099999905,4900,"NYG","NO","willtye",2,-0.266666666666666,3.43933333333334
+"WRdorialgreenbeckham",4.36,4.36,4.36,1,"16345-27134","Dorial Green-Beckham","WR","FanDuel","","",2.400000095,4900,"PHI","CHI","dorialgreenbeckham",2,0.3,5.668
+"WRterrancewilliams",3.92,3.92,3.92,1,"16345-31836","Terrance Williams","WR","FanDuel","","",4.900000095,4900,"DAL","WAS","terrancewilliams",2,-0.1,3.528
+"WRjaelenstrong",3.15,3.15,3.15,1,"16345-39373","Jaelen Strong","WR","FanDuel","","",4.109999847,4900,"HOU","KC","jaelenstrong",3,0,3.15
+"RBtimhightower",3.11,3.11,3.11,1,"16345-6828","Tim Hightower","RB","FanDuel","","",1.5,4900,"NO","NYG","timhightower",3,-0.264285714285715,2.28807142857143
+"RBbennycunningham",2.99,2.99,2.99,1,"16345-39649","Benny Cunningham","RB","FanDuel","","",1.299999952,4900,"LA","SEA","bennycunningham",3,-0.414285714285715,1.75128571428571
+"WRjordannorwood",2.38,2.38,2.38,1,"16345-10531","Jordan Norwood","WR","FanDuel","","",0,4900,"DEN","IND","jordannorwood",3,0,2.38
+"Kjustintucker",8.23,8.23,8.23,1,"16345-23045","Justin Tucker","K","FanDuel","","",9,4800,"BAL","CLE","justintucker",1,-0.433333333333334,4.66366666666667
+"Kstevenhauschka",7.5,7.5,7.5,1,"16345-6724","Steven Hauschka","K","FanDuel","","",6,4800,"SEA","LA","stevenhauschka",1,-0.304166666666666,5.21875
+"Kcairosantos",6.46,6.46,6.46,1,"16345-33714","Cairo Santos","K","FanDuel","","",10,4800,"KC","HOU","cairosantos",1,-0.0208333333333336,6.32541666666666
+"Kmattbryant",6.43,6.43,6.43,1,"16345-10647","Matt Bryant","K","FanDuel","","",10,4800,"ATL","OAK","mattbryant",1,0.05,6.7515
+"RBfozzywhittaker",5.97,5.97,5.97,1,"16345-37245","Fozzy Whittaker","RB","FanDuel","","",2.200000048,4800,"CAR","SF","fozzywhittaker",3,-0.5,2.985
+"TEdennispitta",5.5,5.5,5.5,1,"16345-11532","Dennis Pitta","TE","FanDuel","","",5.400000095,4800,"BAL","CLE","dennispitta",2,0.266666666666666,6.96666666666667
+"TEbrentcelek",5.17,5.17,5.17,1,"16345-6742","Brent Celek","TE","FanDuel","","",1.600000024,4800,"PHI","CHI","brentcelek",1,-0.4,3.102
+"WRquintonpatton",5.08,5.08,5.08,1,"16345-39427","Quinton Patton","WR","FanDuel","","",8.5,4800,"SF","CAR","quintonpatton",4,0,5.08
+"RBmattasiata",4.88,4.88,4.88,1,"16345-14757","Matt Asiata","RB","FanDuel","","",1.299999952,4800,"MIN","GB","mattasiata",3,-0.335714285714285,3.24171428571429
+"RBshaundraughn",3.97,3.97,3.97,1,"16345-15006","Shaun Draughn","RB","FanDuel","","",8.600000381,4800,"SF","CAR","shaundraughn",2,-0.6,1.588
+"RBkenjonbarner",2.93,2.93,2.93,1,"16345-29357","Kenjon Barner","RB","FanDuel","","",4.199999809,4800,"PHI","CHI","kenjonbarner",4,-0.528571428571428,1.38128571428571
+"WRjustinhardy",2.83,2.83,2.83,1,"16345-33137","Justin Hardy","WR","FanDuel","","",0.5,4800,"ATL","OAK","justinhardy",5,0,2.83
+"TEtylerkroft",2.64,2.64,2.64,1,"16345-26038","Tyler Kroft","TE","FanDuel","","",4.066666603,4800,"CIN","PIT","tylerkroft",1,-0.466666666666666,1.408
+"RBdenardrobinson",2.59,2.59,2.59,1,"16345-28088","Denard Robinson","RB","FanDuel","","",0.699999988,4800,"JAX","SD","denardrobinson",2,-0.3,1.813
+"RBlancedunbar",2.5,2.5,2.5,1,"16345-22292","Lance Dunbar","RB","FanDuel","","",2.099999905,4800,"DAL","WAS","lancedunbar",4,0,2.5
+"WRpaulrichardson",2.22,2.22,2.22,1,"16345-26610","Paul Richardson","WR","FanDuel","","",1.600000024,4800,"SEA","LA","paulrichardson",4,0,2.22
+"WRjeffjanis",2.21,2.21,2.21,1,"16345-54623","Jeff Janis","WR","FanDuel","","",0.988888847,4800,"GB","MIN","jeffjanis",6,0,2.21
+"WRandreholmes",2.17,2.17,2.17,1,"16345-14761","Andre Holmes","WR","FanDuel","","",0,4800,"OAK","ATL","andreholmes",3,0,2.17
+"Kdanbailey",7.54,7.54,7.54,1,"16345-14952","Dan Bailey","K","FanDuel","","",17,4700,"DAL","WAS","danbailey",1,-0.391666666666666,4.58683333333334
+"Kmasoncrosby",7.42,7.42,7.42,1,"16345-6897","Mason Crosby","K","FanDuel","","",9,4700,"GB","MIN","masoncrosby",1,0.075,7.9765
+"Kbrandonmcmanus",7.35,7.35,7.35,1,"16345-26247","Brandon McManus","K","FanDuel","","",3,4700,"DEN","IND","brandonmcmanus",1,-0.304166666666666,5.114375
+"Kadamvinatieri",6.82,6.82,6.82,1,"16345-6668","Adam Vinatieri","K","FanDuel","","",12,4700,"IND","DEN","adamvinatieri",1,-0.0875,6.22325
+"WRjeremykerley",6.58,6.58,6.58,1,"16345-14349","Jeremy Kerley","WR","FanDuel","","",9.600000381,4700,"SF","CAR","jeremykerley",2,0.1,7.238
+"Kblairwalsh",6.47,6.47,6.47,1,"16345-22110","Blair Walsh","K","FanDuel","","",16,4700,"MIN","GB","blairwalsh",1,0.0166666666666664,6.57783333333333
+"TEclivewalford",5.87,5.87,5.87,1,"16345-25775","Clive Walford","TE","FanDuel","","",4,4700,"OAK","ATL","clivewalford",1,0.116666666666666,6.55483333333333
+"Kcalebsturgis",4.64,4.64,4.64,1,"16345-30261","Caleb Sturgis","K","FanDuel","","",9,4700,"PHI","CHI","calebsturgis",1,0.0166666666666664,4.71733333333333
+"TEcameronbrate",3.92,3.92,3.92,1,"16345-54782","Cameron Brate","TE","FanDuel","","",4.5,4700,"TB","ARI","cameronbrate",2,-0.25,2.94
+"WRadamhumphries",3.7,3.7,3.7,1,"16345-24671","Adam Humphries","WR","FanDuel","","",5.599999905,4700,"TB","ARI","adamhumphries",5,0,3.7
+"TErichardrodgers",3.61,3.61,3.61,1,"16345-29314","Richard Rodgers","TE","FanDuel","","",2.700000048,4700,"GB","MIN","richardrodgers",2,-0.1,3.249
+"RBdeandrewashington",3.29,3.29,3.29,1,"16345-32613","DeAndre Washington","RB","FanDuel","","",2.900000095,4700,"OAK","ATL","deandrewashington",3,-0.264285714285715,2.4205
+"TElukewillson",2.77,2.77,2.77,1,"16345-32000","Luke Willson","TE","FanDuel","","",3.599999905,4700,"SEA","LA","lukewillson",2,0.333333333333334,3.69333333333333
+"RBandreellington",2.7,2.7,2.7,1,"16345-24682","Andre Ellington","RB","FanDuel","","",1.799999952,4700,"ARI","TB","andreellington",2,-0.0642857142857146,2.52642857142857
+"RBjayajayi",2.54,2.54,2.54,1,"16345-46882","Jay Ajayi","RB","FanDuel","","",4.35555564,4700,"MIA","NE","jayajayi",1,-0.357142857142857,1.63285714285714
+"TEmaxxwilliams",2.54,2.54,2.54,1,"16345-28346","Maxx Williams","TE","FanDuel","","",4.066666603,4700,"BAL","CLE","maxxwilliams",3,0.166666666666666,2.96333333333333
+"WRjaronbrown",2.39,2.39,2.39,1,"16345-24589","Jaron Brown","WR","FanDuel","","",2.299999952,4700,"ARI","TB","jaronbrown",4,0,2.39
+"TEcrockettgillmore",2.33,2.33,2.33,1,"16345-45723","Crockett Gillmore","TE","FanDuel","","",1,4700,"BAL","CLE","crockettgillmore",4,0.166666666666666,2.71833333333333
+"Kchrisboswell",7.02,7.02,7.02,1,"16345-32058","Chris Boswell","K","FanDuel","","",9,4600,"PIT","CIN","chrisboswell",1,0.266666666666666,8.892
+"Kmattprater",6.93,6.93,6.93,1,"16345-6782","Matt Prater","K","FanDuel","","",8,4600,"DET","TEN","mattprater",1,-0.0708333333333336,6.439125
+"TEvirgilgreen",6.8,6.8,6.8,1,"16345-14394","Virgil Green","TE","FanDuel","","",4.800000191,4600,"DEN","IND","virgilgreen",1,-0.0166666666666664,6.68666666666667
+"Ksebastianjanikowski",6.59,6.59,6.59,1,"16345-7831","Sebastian Janikowski","K","FanDuel","","",8,4600,"OAK","ATL","sebastianjanikowski",1,-0.116666666666666,5.82116666666667
+"Knicknovak",6.39,6.39,6.39,1,"16345-12090","Nick Novak","K","FanDuel","","",11,4600,"HOU","KC","nicknovak",1,0.0833333333333336,6.9225
+"Kmikenugent",6.14,6.14,6.14,1,"16345-6636","Mike Nugent","K","FanDuel","","",12,4600,"CIN","PIT","mikenugent",1,-0.129166666666666,5.34691666666667
+"Kconnorbarth",5.82,5.82,5.82,1,"16345-6427","Connor Barth","K","FanDuel","","",2,4600,"CHI","PHI","connorbarth",1,0.15,6.693
+"TEvancemcdonald",5.45,5.45,5.45,1,"16345-32045","Vance McDonald","TE","FanDuel","","",8.399999619,4600,"SF","CAR","vancemcdonald",1,-0.533333333333334,2.54333333333333
+"RBfitzgeraldtoussaint",5.43,5.43,5.43,1,"16345-28030","Fitzgerald Toussaint","RB","FanDuel","","",0.600000024,4600,"PIT","CIN","fitzgeraldtoussaint",6,-0.864285714285715,0.736928571428569
+"Kphildawson",4.76,4.76,4.76,1,"16345-6702","Phil Dawson","K","FanDuel","","",4,4600,"SF","CAR","phildawson",1,0.0833333333333336,5.15666666666667
+"WRchrisconley",4.4,4.4,4.4,1,"16345-30403","Chris Conley","WR","FanDuel","","",6.300000191,4600,"KC","HOU","chrisconley",2,-0.2,3.52
+"TEryangriffin",3.49,3.49,3.49,1,"16345-34073","Ryan Griffin","TE","FanDuel","","",2.700000048,4600,"HOU","KC","ryangriffin",2,-1.01666666666667,-0.0581666666666657
+"TEdarrenfells",3.35,3.35,3.35,1,"16345-38301","Darren Fells","TE","FanDuel","","",5.418181679,4600,"ARI","TB","darrenfells",3,-0.0833333333333336,3.07083333333333
+"TElancekendricks",3.15,3.15,3.15,1,"16345-14240","Lance Kendricks","TE","FanDuel","","",2.5,4600,"LA","SEA","lancekendricks",1,-0.416666666666666,1.8375
+"RBrobertturbin",2.36,2.36,2.36,1,"16345-22048","Robert Turbin","RB","FanDuel","","",2.900000095,4600,"IND","DEN","robertturbin",2,-0.185714285714285,1.92171428571429
+"RBalexcollins",2.3,2.3,2.3,1,"16345-40843","Alex Collins","RB","FanDuel","","",0,4600,"SEA","LA","alexcollins",4,-0.535714285714285,1.06785714285714
+"TEmarcedeslewis",2.25,2.25,2.25,1,"16345-6672","Marcedes Lewis","TE","FanDuel","","",5.800000191,4600,"JAX","SD","marcedeslewis",2,-0.266666666666666,1.65
+"TEdionsims",2.07,2.07,2.07,1,"16345-28144","Dion Sims","TE","FanDuel","","",2.14166673,4600,"MIA","NE","dionsims",1,-0.666666666666667,0.69
+"TEjessejames",6.77,6.77,6.77,1,"16345-28694","Jesse James","TE","FanDuel","","",5.599999905,4500,"PIT","CIN","jessejames",2,-0.9,0.677
+"Kdustinhopkins",6.38,6.38,6.38,1,"16345-24912","Dustin Hopkins","K","FanDuel","","",11,4500,"WAS","DAL","dustinhopkins",1,0.0458333333333336,6.67241666666667
+"Kjoshlambo",6.33,6.33,6.33,1,"16345-32429","Josh Lambo","K","FanDuel","","",9,4500,"SD","JAX","joshlambo",1,0.175,7.43775
+"Kjasonmyers",6.23,6.23,6.23,1,"16345-60745","Jason Myers","K","FanDuel","","",13,4500,"JAX","SD","jasonmyers",1,0.129166666666666,7.03470833333333
+"Krobertoaguayo",6.17,6.17,6.17,1,"16345-24882","Roberto Aguayo","K","FanDuel","","",8,4500,"TB","ARI","robertoaguayo",1,0.0958333333333336,6.76129166666667
+"WRadamthielen",6.11,6.11,6.11,1,"16345-39716","Adam Thielen","WR","FanDuel","","",7.400000095,4500,"MIN","GB","adamthielen",6,0,6.11
+"Kandrewfranks",5.36,5.36,5.36,1,"16345-62619","Andrew Franks","K","FanDuel","","",5,4500,"MIA","NE","andrewfranks",1,0.275,6.834
+"Kryansuccop",5.35,5.35,5.35,1,"16345-6767","Ryan Succop","K","FanDuel","","",4,4500,"TEN","DET","ryansuccop",1,-0.170833333333334,4.43604166666666
+"TEcjuzomah",5.31,5.31,5.31,1,"16345-31207","C.J. Uzomah","TE","FanDuel","","",6.900000095,4500,"CIN","PIT","cjuzomah",2,-0.566666666666666,2.301
+"WRrodstreater",5.29,5.29,5.29,1,"16345-22938","Rod Streater","WR","FanDuel","","",1.299999952,4500,"SF","CAR","rodstreater",3,0,5.29
+"WRleontecarroo",4.49,4.49,4.49,1,"16345-26045","Leonte Carroo","WR","FanDuel","","",2.400000095,4500,"MIA","NE","leontecarroo",4,0,4.49
+"WRbraxtonmiller",4.34,4.34,4.34,1,"16345-28525","Braxton Miller","WR","FanDuel","","",1.100000024,4500,"HOU","KC","braxtonmiller",4,0,4.34
+"RBkylejuszczyk",3.84,3.84,3.84,1,"16345-39428","Kyle Juszczyk","RB","FanDuel","","",3.299999952,4500,"BAL","CLE","kylejuszczyk",1,0.478571428571428,5.67771428571429
+"WRcharlesjohnson",3.84,3.84,3.84,1,"16345-39449","Charles Johnson","WR","FanDuel","","",1,4500,"MIN","GB","charlesjohnson",3,0,3.84
+"TEjermainegresham",3.53,3.53,3.53,1,"16345-11431","Jermaine Gresham","TE","FanDuel","","",6.099999905,4500,"ARI","TB","jermainegresham",1,0.466666666666666,5.17733333333333
+"WRandrejohnson",3.53,3.53,3.53,1,"16345-6681","Andre Johnson","WR","FanDuel","","",4.5,4500,"TEN","DET","andrejohnson",2,0.05,3.7065
+"TEgarrettcelek",3.51,3.51,3.51,1,"16345-22754","Garrett Celek","TE","FanDuel","","",2,4500,"SF","CAR","garrettcelek",2,-0.683333333333334,1.1115
+"WRmarqiselee",3.44,3.44,3.44,1,"16345-29593","Marqise Lee","WR","FanDuel","","",3.200000048,4500,"JAX","SD","marqiselee",3,0,3.44
+"RBjamizeolawale",3.37,3.37,3.37,1,"16345-23046","Jamize Olawale","RB","FanDuel","","",6.199999809,4500,"OAK","ATL","jamizeolawale",2,0.235714285714285,4.16435714285714
+"RBkapribibbs",3.31,3.31,3.31,1,"16345-45683","Kapri Bibbs","RB","FanDuel","","",1.100000024,4500,"DEN","IND","kapribibbs",5,-0.521428571428572,1.58407142857143
+"WRbrianquick",3.3,3.3,3.3,1,"16345-21972","Brian Quick","WR","FanDuel","","",3.799999952,4500,"LA","SEA","brianquick",3,0,3.3
+"WRmalcolmmitchell",3.29,3.29,3.29,1,"16345-30428","Malcolm Mitchell","WR","FanDuel","","",4.300000191,4500,"NE","MIA","malcolmmitchell",5,0,3.29
+"RBjoshferguson",2.82,2.82,2.82,1,"16345-27692","Josh Ferguson","RB","FanDuel","","",3.400000095,4500,"IND","DEN","joshferguson",4,-0.785714285714285,0.604285714285715
+"WRbrandoncoleman",2.67,2.67,2.67,1,"16345-26094","Brandon Coleman","WR","FanDuel","","",4.525000095,4500,"NO","NYG","brandoncoleman",4,0,2.67
+"TEhunterhenry",2.61,2.61,2.61,1,"16345-40845","Hunter Henry","TE","FanDuel","","",2.5,4500,"SD","JAX","hunterhenry",2,-0.1,2.349
+"WRcodylatimer",2.61,2.61,2.61,1,"16345-27771","Cody Latimer","WR","FanDuel","","",2.142857143,4500,"DEN","IND","codylatimer",4,0,2.61
+"WRharrydouglas",2.6,2.6,2.6,1,"16345-10030","Harry Douglas","WR","FanDuel","","",3.099999905,4500,"TEN","DET","harrydouglas",4,0,2.6
+"WRdarriusheywardbey",2.44,2.44,2.44,1,"16345-7784","Darrius Heyward-Bey","WR","FanDuel","","",4.900000139,4500,"PIT","CIN","darriusheywardbey",3,0,2.44
+"TEtylerhigbee",2.35,2.35,2.35,1,"16345-47870","Tyler Higbee","TE","FanDuel","","",0.699999988,4500,"LA","SEA","tylerhigbee",2,-0.566666666666666,1.01833333333333
+"TEjaceamaro",2.23,2.23,2.23,1,"16345-32674","Jace Amaro","TE","FanDuel","","",0,4500,"TEN","DET","jaceamaro",3,-0.3,1.561
+"RBtylerervin",2.22,2.22,2.22,1,"16345-43961","Tyler Ervin","RB","FanDuel","","",1.299999952,4500,"HOU","KC","tylerervin",5,-0.864285714285715,0.301285714285713
+"TEanthonyfasano",2.13,2.13,2.13,1,"16345-6778","Anthony Fasano","TE","FanDuel","","",3.850000109,4500,"TEN","DET","anthonyfasano",2,-0.05,2.0235
+"TEstephenanderson",2.13,2.13,2.13,1,"16345-29277","Stephen Anderson","TE","FanDuel","","",4,4500,"HOU","KC","stephenanderson",4,-1.46666666666667,-0.994
+"TEaustinhooper",2.07,2.07,2.07,1,"16345-40126","Austin Hooper","TE","FanDuel","","",1.899999976,4500,"ATL","OAK","austinhooper",2,-0.516666666666666,1.0005
+"WRdwayneharris",2.06,2.06,2.06,1,"16345-14358","Dwayne Harris","WR","FanDuel","","",0,4500,"NYG","NO","dwayneharris",4,0,2.06
+"WRjoshdoctson",3.51,3.51,3.51,1,"16345-32564","Josh Doctson","WR","FanDuel","Q","Achilles",1.399999976,4800,"WAS","DAL","joshdoctson",NA,0,3.51
+"Dchi",6.51,6.51,6.51,1,"16345-12527","CHI","D","FanDuel","","",4,4400,"CHI","PHI","chi",NA,-0.18,5.3382
+"WRbreshadperriman",4.61,4.61,4.61,1,"16345-34295","Breshad Perriman","WR","FanDuel","Q","Calf",4,5200,"BAL","CLE","breshadperriman",NA,0,4.61
+"RBcjprosise",2.73,2.73,2.73,1,"16345-33472","C.J. Prosise","RB","FanDuel","Q","Wrist",1.600000024,4800,"SEA","LA","cjprosise",NA,0,2.73
+"WRdemaryiusthomas",11.21,11.21,11.21,1,"16345-11432","Demaryius Thomas","WR","FanDuel","Q","Hip",6.800000191,7000,"DEN","IND","demaryiusthomas",NA,0,11.21
+"Dnyg",6.37,6.37,6.37,1,"16345-12543","NYG","D","FanDuel","","",1,4300,"NYG","NO","nyg",NA,-0.0895454545454548,5.79959545454545
+"WRwilliesnead",11.02,11.02,11.02,1,"16345-44449","Willie Snead","WR","FanDuel","","",27.70000076,7200,"NO","NYG","williesnead",NA,0,11.02
+"Dind",6.15,6.15,6.15,1,"16345-12535","IND","D","FanDuel","","",-3,4300,"IND","DEN","ind",NA,-0.0668181818181822,5.73906818181818
+"TErobgronkowski",11.12,11.12,11.12,1,"16345-11460","Rob Gronkowski","TE","FanDuel","Q","Hamstring",14.64000041,8700,"NE","MIA","robgronkowski",NA,0,11.12
+"Dgb",7.99,7.99,7.99,1,"16345-12533","GB","D","FanDuel","","",5,4400,"GB","MIN","gb",NA,0.0354545454545452,8.27328181818182
+"RBarianfoster",12.04,12.04,12.04,1,"16345-10777","Arian Foster","RB","FanDuel","Q","Hamstring",11.5,7100,"MIA","NE","arianfoster",NA,0,12.04
+"Dkc",7.65,7.65,7.65,1,"16345-12536","KC","D","FanDuel","","",1,4700,"KC","HOU","kc",NA,0.211818181818182,9.27040909090909
+"WRchrishogan",7.62,7.62,7.62,1,"16345-14704","Chris Hogan","WR","FanDuel","Q","Shoulder",13.5,4700,"NE","MIA","chrishogan",NA,0,7.62
+"WRmarkuswheaton",6.46,6.46,6.46,1,"16345-29500","Markus Wheaton","WR","FanDuel","Q","Shoulder",8.056249619,6300,"PIT","CIN","markuswheaton",NA,0,6.46
+"RBjonathanstewart",12.34,12.34,12.34,1,"16345-6733","Jonathan Stewart","RB","FanDuel","Q","Ankle",6.400000095,6700,"CAR","SF","jonathanstewart",NA,0,12.34
+"Dhou",7.93,7.93,7.93,1,"16345-12556","HOU","D","FanDuel","","",8,4900,"HOU","KC","hou",NA,-0.099545454545455,7.14060454545454
+"Djax",6.68,6.68,6.68,1,"16345-12554","JAX","D","FanDuel","","",1,4300,"JAX","SD","jax",NA,-0.0331818181818178,6.45834545454546
+"TEjordancameron",3.96,3.96,3.96,1,"16345-14292","Jordan Cameron","TE","FanDuel","Q","Thigh",1.600000024,4900,"MIA","NE","jordancameron",NA,0,3.96
+"Dpit",7.39,7.39,7.39,1,"16345-12547","PIT","D","FanDuel","","",5,4600,"PIT","CIN","pit",NA,-0.284090909090909,5.29056818181818
+"Ddal",5.95,5.95,5.95,1,"16345-12530","DAL","D","FanDuel","","",5,4500,"DAL","WAS","dal",NA,-0.0240909090909092,5.80665909090909
+"Dtb",6.21,6.21,6.21,1,"16345-12551","TB","D","FanDuel","","",3,4300,"TB","ARI","tb",NA,-0.22,4.8438
+"Dcar",9.65,9.65,9.65,1,"16345-12553","CAR","D","FanDuel","","",8,5300,"CAR","SF","car",NA,0.231363636363637,11.8826590909091
+"Dten",6.44,6.44,6.44,1,"16345-12534","TEN","D","FanDuel","","",4,4100,"TEN","DET","ten",NA,-0.00409090909090963,6.41365454545454
+"Dcle",5.91,5.91,5.91,1,"16345-12529","CLE","D","FanDuel","","",2,4100,"CLE","BAL","cle",NA,-0.398181818181818,3.55674545454546
+"Datl",4.83,4.83,4.83,1,"16345-12525","ATL","D","FanDuel","","",1,4100,"ATL","OAK","atl",NA,-0.200909090909091,3.85960909090909
+"Dphi",7.65,7.65,7.65,1,"16345-12545","PHI","D","FanDuel","","",11,4800,"PHI","CHI","phi",NA,0.169545454545455,8.94702272727273
+"Dsf",5.69,5.69,5.69,1,"16345-12549","SF","D","FanDuel","","",16,4000,"SF","CAR","sf",NA,-0.294545454545455,4.01403636363636
+"Dwas",6.53,6.53,6.53,1,"16345-12552","WAS","D","FanDuel","","",-1,4400,"WAS","DAL","was",NA,-0.398636363636363,3.92690454545455
+"Dari",8.3,8.3,8.3,1,"16345-12546","ARI","D","FanDuel","","",6,4800,"ARI","TB","ari",NA,-0.00363636363636317,8.26981818181819
+"Dden",8.39,8.39,8.39,1,"16345-12531","DEN","D","FanDuel","","",6,4700,"DEN","IND","den",NA,0.018636363636363,8.54635909090909
+"RBchristinemichael",7.86,7.86,7.86,1,"16345-32418","Christine Michael","RB","FanDuel","","",8.100000381,5900,"SEA","LA","christinemichael",NA,0,7.86
+"Dmia",6.65,6.65,6.65,1,"16345-12539","MIA","D","FanDuel","","",13,4300,"MIA","NE","mia",NA,-0.100909090909091,5.97895454545455
+"Dsea",9.19,9.19,9.19,1,"16345-12550","SEA","D","FanDuel","","",11,5200,"SEA","LA","sea",NA,0.387727272727273,12.7532136363636
+"Dcin",6.82,6.82,6.82,1,"16345-12528","CIN","D","FanDuel","","",5,4400,"CIN","PIT","cin",NA,-0.155,5.7629
+"WRdevanteparker",6.54,6.54,6.54,1,"16345-33260","DeVante Parker","WR","FanDuel","Q","Hamstring",10.05000019,5800,"MIA","NE","devanteparker",NA,0,6.54
+"Krandybullock",5.26,5.26,5.26,1,"16345-22100","Randy Bullock","K","FanDuel","","",2,4800,"NYG","NO","randybullock",NA,0,5.26
+"Ddet",6.8,6.8,6.8,1,"16345-12532","DET","D","FanDuel","","",0,4400,"DET","TEN","det",NA,-0.116363636363636,6.00872727272727
+"Dla",7.64,7.64,7.64,1,"16345-12538","LA","D","FanDuel","","",1,4300,"LA","SEA","la",NA,-0.0872727272727275,6.97323636363636
+"Doak",6.99,6.99,6.99,1,"16345-12537","OAK","D","FanDuel","","",2,4500,"OAK","ATL","oak",NA,-0.0536363636363632,6.61508181818182
+"Dno",4.83,4.83,4.83,1,"16345-12542","NO","D","FanDuel","","",-4,4200,"NO","NYG","no",NA,-0.104545454545455,4.32504545454545
+"Dmin",7.17,7.17,7.17,1,"16345-12540","MIN","D","FanDuel","","",21,4400,"MIN","GB","min",NA,-0.0613636363636367,6.73002272727272
+"Dbal",8.17,8.17,8.17,1,"16345-12555","BAL","D","FanDuel","","",6,4500,"BAL","CLE","bal",NA,0.0418181818181822,8.51165454545455
+"Dsd",6.45,6.45,6.45,1,"16345-12548","SD","D","FanDuel","","",4,4000,"SD","JAX","sd",NA,-0.0631818181818183,6.04247727272727
+"Dne",8.31,8.31,8.31,1,"16345-12541","NE","D","FanDuel","","",3,4500,"NE","MIA","ne",NA,0.217727272727273,10.1193136363636

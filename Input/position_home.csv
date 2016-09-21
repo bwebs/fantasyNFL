@@ -1,0 +1,13 @@
+"","x"
+"(Intercept)",5.5822784810126
+"variableHomeAbr",0.374243258117935
+"PositionK",0.627398938342255
+"PositionQB",15.4088719614652
+"PositionRB",0.141859450021952
+"PositionTE",-0.257278481012549
+"PositionWR",0.141859450021951
+"variableHomeAbr:PositionK",-0.467712726402444
+"variableHomeAbr:PositionQB",1.63460629940417
+"variableHomeAbr:PositionRB",0.094601266987928
+"variableHomeAbr:PositionTE",-0.297344523940726
+"variableHomeAbr:PositionWR",0.0946012669879108
