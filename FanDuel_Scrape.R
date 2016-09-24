@@ -46,9 +46,9 @@ names(fd)[1]='id'
 
 
 if (!exists('playerScrape')) {
-  playerScrape = fd
+  #playerScrape = fd
 } else {
-  playerScrape = rbind(playerScrape, fd)
+  #playerScrape = rbind(playerScrape, fd)
 }
 
 

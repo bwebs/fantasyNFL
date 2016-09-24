@@ -7,7 +7,7 @@ addMaddenBonus = function (aP) {
   
   #aP = avgPlayer
   
-
+  
   mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&filter=iteration:4&limit=20000')$docs
   #mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&&limit=20000')$docs
   #temp = mad // mad=temp
@@ -22,7 +22,6 @@ addMaddenBonus = function (aP) {
   translateName = read.csv('Input/aP_mad_nameTranslation.csv', stringsAsFactors = FALSE)
   checkIn = which(mad$Name %in% translateName$Name.From.debug_mad)
   for (i in checkIn ) {mad$Name[i] = translateName$Name[which(translateName$Name.From.debug_mad %in% mad$Name[i])[1]] }
-  
   
   mad = addNameRM(mad)
   mad = abbreviateTeams(mad)
@@ -41,12 +40,42 @@ addMaddenBonus = function (aP) {
   mad = mad[order(mad$Team,mad$Position,-mad$ovr_rating),]
   mad$Rank = ave(-mad$ovr_rating, mad$Team, mad$Position, FUN=function(x) rank(x, ties.method="random"))
   
+  a.needs = data.frame(position=c('QB','WR','RB','OL','TE','DL','LB','CB','FS','SS','K'), need=c(1,3,2,5,1,4,3,3,1,1,1), stringsAsFactors = FALSE)
+  teams = data.frame(Opponent=as.character(unique(mad$Team)), stringsAsFactors=FALSE)
+  
+  # Check for missing necessary positions and update the depth chart
+  for (i in 1:length(a.needs$position)) {
+    for (k in 1:length(teams$Opponent)) {
+      # Check for Free Safety, replace with CB3
+      if (length(which(mad$Team == teams$Opponent[k] 
+                       & mad$Rank==1 
+                       & mad$Position == a.needs$position[i] )) == 0 ) {
+        replacement=0
+        if (a.needs$position[i] == 'FS') {
+          replacement = which(mad$Team == teams$Opponent[k] 
+                              & mad$Rank==2
+                              & mad$Position == 'SS')
+          
+          mad$Position[replacement] = 'FS'
+          mad$Rank[replacement] = 1
+          print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+        }
+        if (a.needs$position[i] == 'K') {
+          replacement = which(mad$Team == teams$Opponent[k] 
+                              & mad$Rank==1
+                              & mad$Position == 'P')
+          mad$Position[replacement]='K'
+          mad$ovr_rating[replacement] = mad$ovr_rating[replacement]*.7
+          print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+        }
+      }
+    }
+  }
+  
   #temp = mad // mad=temp
   
   #analysis 1
   #a1 = mad[mad$Position=="QB",]
-  a.needs = data.frame(position=c('QB','WR','RB','OL','TE','DL','LB','CB','FS','SS','K'), need=c(1,3,2,5,1,4,3,3,1,1,1), stringsAsFactors = FALSE)
-  teams = data.frame(Opponent=as.character(unique(mad$Team)), stringsAsFactors=FALSE)
   
   for (i in 1:length(a.needs$position)) {
     for (j in 1:a.needs$need[i]) {
@@ -63,21 +92,21 @@ addMaddenBonus = function (aP) {
   #str(teams)
   
   teams$defense   = rowMeans(teams[,
-                                         c('DL.1.ovr','DL.2.ovr','DL.3.ovr','DL.4.ovr'
-                                           ,'LB.1.ovr','LB.2.ovr','LB.3.ovr','CB.1.ovr'
-                                           ,'CB.2.ovr','FS.1.ovr','SS.1.ovr') ])
+                                   c('DL.1.ovr','DL.2.ovr','DL.3.ovr','DL.4.ovr'
+                                     ,'LB.1.ovr','LB.2.ovr','LB.3.ovr','CB.1.ovr'
+                                     ,'CB.2.ovr','FS.1.ovr','SS.1.ovr') ])
   teams$secondary = rowMeans(teams[, c('CB.1.ovr','CB.2.ovr','CB.3.ovr'
-                                               ,'FS.1.ovr','SS.1.ovr')])
+                                       ,'FS.1.ovr','SS.1.ovr')])
   teams$v.D       = rowMeans(teams[,
-                                    c('QB.1.ovr','RB.1.ovr','WR.1.ovr','WR.2.ovr'
-                                      ,'TE.1.ovr','OL.1.ovr','OL.2.ovr','OL.3.ovr','OL.4.ovr') ])
+                                   c('QB.1.ovr','RB.1.ovr','WR.1.ovr','WR.2.ovr'
+                                     ,'TE.1.ovr','OL.1.ovr','OL.2.ovr','OL.3.ovr','OL.4.ovr') ])
   teams$v.QB      = rowMeans(teams[,c('CB.1.ovr','CB.2.ovr','SS.1.ovr','FS.1.ovr')])
   teams$v.RB      = rowMeans(teams[,c('DL.1.ovr','DL.2.ovr','DL.3.ovr','DL.4.ovr'
-                                             ,'LB.1.ovr','LB.2.ovr','LB.3.ovr')])
+                                      ,'LB.1.ovr','LB.2.ovr','LB.3.ovr')])
   teams$v.TE      = rowMeans(teams[,c('LB.1.ovr','LB.2.ovr','LB.3.ovr')])
   teams$v.K       = rowMeans(teams[,c('DL.1.ovr','DL.2.ovr','DL.3.ovr','DL.4.ovr'
-                                            ,'LB.1.ovr','LB.2.ovr','LB.3.ovr','CB.1.ovr'
-                                            ,'CB.2.ovr','FS.1.ovr','SS.1.ovr') ])
+                                      ,'LB.1.ovr','LB.2.ovr','LB.3.ovr','CB.1.ovr'
+                                      ,'CB.2.ovr','FS.1.ovr','SS.1.ovr') ])
   
   
   
