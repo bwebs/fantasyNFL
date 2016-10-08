@@ -2,7 +2,7 @@
 
 token= '6384d1c63f4f81e041721964bfe88d92'
 
-devtools::install_github("stattleship/stattleship-r")
+#devtools::install_github("stattleship/stattleship-r")
 library(stattleshipR)
 set_token(token) 
 

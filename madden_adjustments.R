@@ -1,10 +1,5 @@
 addMaddenBonus = function (aP) {
-  library(RCurl)
-  library(XML)
-  library(jsonlite)
-  source('functions.R')
-  source('injuryTest.R')
-  
+
   #aP = avgPlayer
   
   
@@ -68,6 +63,14 @@ addMaddenBonus = function (aP) {
           mad$ovr_rating[replacement] = mad$ovr_rating[replacement]*.7
           print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
         }
+        if (a.needs$position[i] == 'SS') {
+          replacement = which(mad$Team == teams$Opponent[k] 
+                              & mad$Rank==2
+                              & mad$Position == 'FS')
+          mad$Position[replacement] = 'SS'
+          mad$Rank[replacement] = 1
+          print(paste(i,k,teams$Year[k],teams$Week[k],teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+        }
       }
     }
   }
@@ -115,7 +118,7 @@ addMaddenBonus = function (aP) {
   sum(is.na(aP$Rank))
   
   bonus.1 = .05
-  bonus.2 = .05
+  bonus.2 = .025
   bonus.3 = .05
   bonus.4 = .05
   bonus.5 = .05

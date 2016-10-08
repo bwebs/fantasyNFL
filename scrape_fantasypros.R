@@ -1,6 +1,4 @@
-require(httr)
-require(XML)
-require(RCurl)
+print('Scraping Fantasy Pros aggregate analyst data')
 
 fpro = getURL('https://www.fantasypros.com/nfl/daily-fantasy-lineup-optimizer.php')
 doc = htmlParse(fpro)

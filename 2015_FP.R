@@ -1,20 +1,22 @@
-addHomeBonus = function(aP){
-  library(rvest)
-  library(stringr)
-  library(tidyr)
-  library(jsonlite)
-  library(reshape)
-  library(plyr)
+library(rvest)
+library(stringr)
+library(tidyr)
+library(jsonlite)
+library(reshape)
+library(plyr)
 
+addHomeBonus = function(aP){
+
+  print('Adding Home Bonus, bonusPositionHome')
   skip=TRUE
   #aP = avgPlayer
   
   if (!skip) {
-
+    print('Did not skip, re-pulling data')
     
     urlbase = 'http://www.thehuddle.com/stats/'
     am = '&'
-    slotCategoryId = data.frame(value=c('qb','rb','rb','te','pk','DF'), pos=c("QB",'RB','WR','TE','K','D')) 
+    slotCategoryId = data.frame(value=c('qb','rb','wr','te','pk','DF'), pos=c("QB",'RB','WR','TE','K','D')) 
     #df = data.frame(Player=as.character(),Team=as.character(), FP=as.numeric(), stringsAsFactors = FALSE)
     Scrape2015 = data.frame(Player=as.character(),Team=as.character(), FP=as.numeric(), stringsAsFactors = FALSE)
     

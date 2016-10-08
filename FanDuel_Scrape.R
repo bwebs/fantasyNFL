@@ -1,4 +1,8 @@
-fd = read.csv('FanDuel/FanDuel-NFL-2016-09-25-16403-lineup-upload-template.csv', stringsAsFactors = FALSE)
+fanduelFile = 'FanDuel-NFL-2016-10-09-16502-lineup-upload-template.csv'
+
+print(paste0('Using FanDuel file: ',fanduelFile))
+
+fd = read.csv(paste0('FanDuel/',fanduelFile), stringsAsFactors = FALSE)
 
 #str(fd)
 fdTemplate = fd[,1:9]
@@ -41,14 +45,15 @@ fdSalary = createKey(fdSalary)
 fdSalary$Opponent = ifelse(fdSalary$Opponent=='JAC','JAX',fdSalary$Opponent)
 fdSalary$Team = ifelse(fdSalary$Team=='JAC','JAX',fdSalary$Team)
 
-fd= fd[,c(1,14,3,15:30)]
+#fd= fd[,c(1,14,3,15:30)]
 names(fd)[1]='id'
 
-
-if (!exists('playerScrape')) {
-  #playerScrape = fd
-} else {
-  #playerScrape = rbind(playerScrape, fd)
+if (fdPoints) {
+  print('Adding FanDuel points')
+  if (!exists('playerScrape')) {
+    playerScrape = fd
+  } else {
+    playerScrape = rbind(playerScrape, fd[,names(playerScrape)])
+  }
 }
-
 

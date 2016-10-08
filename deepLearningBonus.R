@@ -1,19 +1,19 @@
 library(h2o)
 deepLearningBonus = function(aP) {
+  print('Adding Deep Learning Bonus, deepBonus')
   #aP = avgPlayer  
   
-  varWeek=5
+  varWeek=week.prompt
+  iteration = week.prompt+1
   
   #str(aP)
-  mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&filter=iteration:6&limit=20000')$docs
+  mad = fromJSON(paste0('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&filter=iteration:',iteration,'&limit=20000'))$docs
   #mad = fromJSON('https://www.easports.com/madden-nfl/ratings/service/data?entityType=madden17_player&&limit=20000')$docs
   #temp = mad // mad=temp
   #str(mad)
   names(mad)[names(mad)=='team']='Team'
   names(mad)[names(mad)=='position']='Position'
-  print('1')
   mad = convertPositions(mad)
-  print('2')
   mad$Name = paste(mad$firstName,mad$lastName, sep=' ')
   
   translateName = read.csv('Input/aP_mad_nameTranslation.csv', stringsAsFactors = FALSE)
@@ -56,7 +56,7 @@ deepLearningBonus = function(aP) {
           mad$Position[replacement] = 'FS'
           mad$ovr_rating[replacement] = mad$ovr_rating[replacement]*.95
           mad$Rank[replacement] = 1
-          print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+          print(paste('Missing FS replacement',i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
         }
         if (a.needs$position[i] == 'K') {
           replacement = which(mad$Team == teams$Opponent[k] 
@@ -64,7 +64,7 @@ deepLearningBonus = function(aP) {
                               & mad$Position == 'P')
           mad$Position[replacement]='K'
           mad$ovr_rating[replacement] = mad$ovr_rating[replacement]*.7
-          print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+          print(paste('Missing K replacement',i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
         }
         if (a.needs$position[i] == 'SS') {
           replacement = which(mad$Team == teams$Opponent[k] 
@@ -73,7 +73,7 @@ deepLearningBonus = function(aP) {
           mad$Position[replacement]='SS'
           mad$ovr_rating[replacement] = mad$ovr_rating[replacement]*.95
           mad$Rank[replacement] = 1
-          print(paste(i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
+          print(paste('Missing SS replacement',i,k,teams$Opponent[k],a.needs$position[i],replacement,mad$Position[replacement],mad$Key[replacement],sep=','))
         }
       }
     }
@@ -102,6 +102,7 @@ deepLearningBonus = function(aP) {
   
   positions = c('QB','RB','WR','TE','K','D') #
   for (position in positions ) {
+    print(paste0('Loading Deep Learning Bonuses: ',position))
     combine = merge(aP[aP$Position==position,],teams,by='Opponent')
     combine = combine[,!grepl('.Key',names(combine))]
     names(combine)[grepl('.ovr',names(combine))] = paste0('Opponent.',names(combine)[grepl('.ovr',names(combine))])
@@ -114,7 +115,7 @@ deepLearningBonus = function(aP) {
     combine$Week = as.factor(varWeek)
     combine$variable = as.factor(ifelse(combine$Home, 'HomeAbr', 'AwayAbr'))
     
-    str(combine)
+    #str(combine)
     combine = merge(combine,mad[,c('ovr_rating','Key','Depth')],by='Key', all.x=TRUE)
     #dim(combine)
     names(combine)[names(combine)=='ovr_rating'] = 'Overall'
@@ -175,12 +176,8 @@ deepLearningBonus = function(aP) {
     
     #dim(combine)
     
-    
-    
-    
     path = paste0('../maddenProjections/modelOutputs/dl_grid',position,'_bestModelSave/')
     temp = list.files(path = path, pattern="*model")[1]
-    
     
     m_loaded <- h2o.loadModel(paste0(path,temp))
     avgGuy = combine
@@ -188,9 +185,7 @@ deepLearningBonus = function(aP) {
     #Average at each Depth
     avgGuy$Overall = ave(avgGuy$Overall, avgGuy$Depth, FUN = mean)
     
-    
-    
-    sum(!(m_loaded@allparameters$x %in% names(avgGuy)))
+    #sum(!(m_loaded@allparameters$x %in% names(avgGuy)))
     
     if (position != 'D') {
       factors= which(names(combine[,m_loaded@allparameters$x]) %in% c("Week","variable","Depth" ))
@@ -206,14 +201,14 @@ deepLearningBonus = function(aP) {
                                , h2o.interaction( 
                                  as.h2o( avgGuy[,m_loaded@allparameters$x])
                                  , factors=factors,pairwise=TRUE,max_factors = 3,min_occurrence = 2))
-    
     combine$avgGuyPredict = as.vector(predict(m_loaded, avgGuy.predict))
     combine$Depth = ifelse(is.na(combine$Depth),combine$Position,combine$Depth)
     combine$deepBonus = combine$avgGuyPredict / ave(combine$avgGuyPredict, combine$Depth, FUN=mean) - 1
     if (position=='QB') { output = combine } else {output = rbind(output,combine)}
   }
   
-  return(output)
+  aP= merge(aP,output[,c('Key','deepBonus')],by='Key')
+  return(aP)
   
-  write.csv(output,'Exports/deepProjectionsWeek5.csv')
+  write.csv(output,paste0('Exports/week',varWeek,'_deepProjections.csv'))
 }

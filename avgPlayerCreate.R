@@ -39,9 +39,9 @@ if (madBonus) {avgPlayer = addMaddenBonus(avgPlayer)}
 if (homeBonus) {avgPlayer = addHomeBonus(avgPlayer)}
 if (dlBonus) {avgPlayer = deepLearningBonus(avgPlayer)}
 
-bonuses = ifelse(dlBonus,avgPlayer$deepBonus,0) + 
-  ifelse(homeBonus,avgPlayer$bonusPositionHome,0) + 
-  ifelse(madBonus, avgPlayer$Bonus, 0 )
+bonuses = ifelse(rep(dlBonus,length(avgPlayer$Key)),avgPlayer$deepBonus,0) + 
+  ifelse(rep(homeBonus,length(avgPlayer$Key)),avgPlayer$bonusPositionHome,0) + 
+  ifelse(rep(madBonus,length(avgPlayer$Key)), avgPlayer$Bonus, 0 )
 
 avgPlayer$mean = (1+bonuses)*avgPlayer$mean.weight
 
