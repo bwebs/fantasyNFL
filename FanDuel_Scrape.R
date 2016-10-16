@@ -1,4 +1,4 @@
-fanduelFile = 'FanDuel-NFL-2016-10-09-16502-lineup-upload-template.csv'
+#fanduelFile = 'FanDuel-NFL-2016-10-09-16502-lineup-upload-template.csv'
 
 print(paste0('Using FanDuel file: ',fanduelFile))
 

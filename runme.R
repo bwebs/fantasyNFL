@@ -1,4 +1,6 @@
-#install.packages(c('rvest','stringr','tidyr','RCurl','XML','jsonlite','httr'), requirements=TRUE)
+#install.packages(c('rvest','stringr','tidyr','RCurl','XML','jsonlite','httr','h2o'), requirements=TRUE)
+
+fanduelFile = 'FanDuel-NFL-2016-10-16-16565-lineup-upload-template.csv'
 
 library(shiny)
 library(shinydashboard)
@@ -8,6 +10,7 @@ library(XML)
 library(jsonlite)
 require(httr)
 require(XML)
+library(h2o)
 
 source('CreateBuckets_shiny.R')
 source('madden_adjustments.R')
@@ -17,7 +20,8 @@ source('functions.R')
 source('deepLearningBonus.R')
 source('prompts.R')
 
-
 prompts()
+
+
 
 
