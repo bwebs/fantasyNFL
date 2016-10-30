@@ -21,7 +21,7 @@ RB = avgPlayer[avgPlayer$Position=='RB',c('Key','mean','Salary','Team')]
 
 WR = avgPlayer[avgPlayer$Position=='WR',c('Key','mean','Salary','Team')]
 #for (i in length(WR$Salary):4) { if (WR$Salary[i-3]==WR$Salary[i] & WR$mean[i-3]>WR$mean[i]) {WR = WR[-i,]}}
-WR = WR[!(WR$Key %in% c('WRantoniobrown','WRmarvinjonesjr')),]
+#WR = WR[!(WR$Key %in% c('WRantoniobrown','WRmarvinjonesjr')),]
 
 TE = avgPlayer[avgPlayer$Position=='TE',c('Key','mean','Salary','Team')]
 #for (i in length(TE$Salary):2) { if (TE$Salary[i-1]==TE$Salary[i] & TE$mean[i-1]>TE$mean[i]) {TE = TE[-i,]}}
@@ -97,7 +97,7 @@ for (j in 1:length(QBWR2$Salary)) {
   }
 }
 QBWR3 = QBWR3[order(-QBWR3$Salary, -QBWR3$PredictedPoints),]
-for (k in length(QBWR3$Salary):2) { if (QBWR3$Salary[k-1]==QBWR3$Salary[k] & QBWR3$PredictedPoints[k-1]>QBWR3$PredictedPoints[k]) {QBWR3 = QBWR3[-k,]}}
+#for (k in length(QBWR3$Salary):2) { if (QBWR3$Salary[k-1]==QBWR3$Salary[k] & QBWR3$PredictedPoints[k-1]>QBWR3$PredictedPoints[k]) {QBWR3 = QBWR3[-k,]}}
 
 
 TEQBWR3 = data.frame(a=as.integer(),d=as.integer(),e=as.integer(),f=as.integer(),g=as.integer(),Salary=as.integer(),PredictedPoints=as.double(),bonus_QBWR=as.double(), bonus_WR2=as.double(), bonus_WRTE=as.double())
@@ -138,7 +138,7 @@ for  ( h in 1:lK ) {
   }
 }
 KD = KD[order(-KD$Salary,-KD$PredictedPoints),]
-for (i in length(KD$Salary):2) { if (KD$Salary[i-1]==KD$Salary[i] & KD$PredictedPoints[i-1]>KD$PredictedPoints[i]) {KD = KD[-i,]}}
+#for (i in length(KD$Salary):2) { if (KD$Salary[i-1]==KD$Salary[i] & KD$PredictedPoints[i-1]>KD$PredictedPoints[i]) {KD = KD[-i,]}}
 
 
 KDRB12 = data.frame(b=as.integer(),c=as.integer(),h=as.integer(),i=as.integer(),Salary=as.integer(),PredictedPoints=as.double(), bonus_RB2=as.double())

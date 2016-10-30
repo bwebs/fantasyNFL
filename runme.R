@@ -1,6 +1,6 @@
 #install.packages(c('rvest','stringr','tidyr','RCurl','XML','jsonlite','httr','h2o'), requirements=TRUE)
 
-fanduelFile = 'FanDuel-NFL-2016-10-16-16565-lineup-upload-template.csv'
+fanduelFile = 'FanDuel-NFL-2016-10-30-16711-lineup-upload-template.csv'
 
 library(shiny)
 library(shinydashboard)
