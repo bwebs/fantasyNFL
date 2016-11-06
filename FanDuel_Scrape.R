@@ -36,8 +36,8 @@ fd$PredictedPoints = as.double(fd$FPPG)
 fd$Salary = as.integer(fd$Salary)
 
 
-
-fdSalary = fd[,c('Id','Name','Position','Source','Injury Indicator','Injury Details','PredictedPoints','Salary','Team','Opponent','Home')]
+#c('Id','Name','Position','Source','Injury Indicator','Injury Details','PredictedPoints','Salary','Team','Opponent','Home') %in% colnames(fd)
+fdSalary = fd[,c('Id','Name','Position','Source','Injury Indicator','PredictedPoints','Salary','Team','Opponent','Home')] #,'Injury Details'
 #str(fdSalary)
 fdSalary = abbreviateTeams(fdSalary)
 fdSalary = addNameRM(fdSalary)

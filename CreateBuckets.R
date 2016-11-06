@@ -10,26 +10,27 @@ bonus.RB2 = -.1
 bonus.WRTE = -.1
 
 
+meanCutoffs = c(15,5,5,4,4,7)
 
-QB = avgPlayer[avgPlayer$Position=='QB' ,c('Key','mean','Salary','Team')]
+QB = avgPlayer[avgPlayer$Position=='QB' & avgPlayer$mean > meanCutoffs[1] ,c('Key','mean','Salary','Team')]
 # Remove QB's that are strictly beaten by another QB at the same price level
 #for (i in length(QB$Salary):2) { if (QB$Salary[i-1]==QB$Salary[i] & QB$mean[i-1]>QB$mean[i]) {QB = QB[-i,]}}
 
-RB = avgPlayer[avgPlayer$Position=='RB',c('Key','mean','Salary','Team')]
+RB = avgPlayer[avgPlayer$Position=='RB' & avgPlayer$mean > meanCutoffs[2], c('Key','mean','Salary','Team')]
 #Same for RB's but keep 2
 #for (i in length(RB$Salary):3) { if (RB$Salary[i-2]==RB$Salary[i] & RB$mean[i-2]>RB$mean[i]) {RB = RB[-i,]}}
 
-WR = avgPlayer[avgPlayer$Position=='WR',c('Key','mean','Salary','Team')]
+WR = avgPlayer[avgPlayer$Position=='WR' & avgPlayer$mean > meanCutoffs[3],c('Key','mean','Salary','Team')]
 #for (i in length(WR$Salary):4) { if (WR$Salary[i-3]==WR$Salary[i] & WR$mean[i-3]>WR$mean[i]) {WR = WR[-i,]}}
 #WR = WR[!(WR$Key %in% c('WRantoniobrown','WRmarvinjonesjr')),]
 
-TE = avgPlayer[avgPlayer$Position=='TE',c('Key','mean','Salary','Team')]
+TE = avgPlayer[avgPlayer$Position=='TE' & avgPlayer$mean > meanCutoffs[4],c('Key','mean','Salary','Team')]
 #for (i in length(TE$Salary):2) { if (TE$Salary[i-1]==TE$Salary[i] & TE$mean[i-1]>TE$mean[i]) {TE = TE[-i,]}}
 
-K = avgPlayer[avgPlayer$Position=='K',c('Key','mean','Salary','Team')]
+K = avgPlayer[avgPlayer$Position=='K' & avgPlayer$mean > meanCutoffs[5],c('Key','mean','Salary','Team')]
 #for (i in length(K$Salary):2) { if (K$Salary[i-1]==K$Salary[i] & K$mean[i-1]>K$mean[i]) {K = K[-i,]}}
 
-D = avgPlayer[avgPlayer$Position=='D',c('Key','mean','Salary','Team')]
+D = avgPlayer[avgPlayer$Position=='D' & avgPlayer$mean > meanCutoffs[6],c('Key','mean','Salary','Team')]
 #for (i in length(D$Salary):2) { if (D$Salary[i-1]==D$Salary[i] & D$mean[i-1]>D$mean[i]) {D = D[-i,]}}
 
 lQB = length(QB$Salary)
@@ -72,7 +73,7 @@ for (j in 1:length(QBWR$Salary)) {
   }
 }
 QBWR2 = QBWR2[order(-QBWR2$Salary, -QBWR2$PredictedPoints),]
-#for (k in length(QBWR2$Salary):2) { if (QBWR2$Salary[k-1]==QBWR2$Salary[k] & QBWR2$PredictedPoints[k-1]>QBWR2$PredictedPoints[k]) {QBWR2 = QBWR2[-k,]}}
+for (k in length(QBWR2$Salary):2) { if (QBWR2$Salary[k-1]==QBWR2$Salary[k] & QBWR2$PredictedPoints[k-1]>QBWR2$PredictedPoints[k]) {QBWR2 = QBWR2[-k,]}}
 
 
 QBWR3 = data.frame(a=as.integer(),d=as.integer(),e=as.integer(),f=as.integer(),Salary=as.integer(),PredictedPoints=as.double(),bonus_QBWR=as.double(), bonus_WR2=as.double())
@@ -97,7 +98,7 @@ for (j in 1:length(QBWR2$Salary)) {
   }
 }
 QBWR3 = QBWR3[order(-QBWR3$Salary, -QBWR3$PredictedPoints),]
-#for (k in length(QBWR3$Salary):2) { if (QBWR3$Salary[k-1]==QBWR3$Salary[k] & QBWR3$PredictedPoints[k-1]>QBWR3$PredictedPoints[k]) {QBWR3 = QBWR3[-k,]}}
+for (k in length(QBWR3$Salary):2) { if (QBWR3$Salary[k-1]==QBWR3$Salary[k] & QBWR3$PredictedPoints[k-1]>QBWR3$PredictedPoints[k]) {QBWR3 = QBWR3[-k,]}}
 
 
 TEQBWR3 = data.frame(a=as.integer(),d=as.integer(),e=as.integer(),f=as.integer(),g=as.integer(),Salary=as.integer(),PredictedPoints=as.double(),bonus_QBWR=as.double(), bonus_WR2=as.double(), bonus_WRTE=as.double())
