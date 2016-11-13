@@ -128,7 +128,7 @@ for (b in 1:(lRB-1) ) {
     RB12[count,] = c(b,c,RB$Salary[b]+RB$Salary[c],RB$mean[b]+RB$mean[c]+bonus.1,bonus.1)
   }}
 RB12 = RB12[order(-RB12$Salary, -RB12$PredictedPoints),]
-#for (k in length(RB12$Salary):2) { if (RB12$Salary[k-1]==RB12$Salary[k] & RB12$PredictedPoints[k-1]>RB12$PredictedPoints[k]) {RB12 = RB12[-k,]}}
+for (k in length(RB12$Salary):2) { if (RB12$Salary[k-1]==RB12$Salary[k] & RB12$PredictedPoints[k-1]>RB12$PredictedPoints[k]) {RB12 = RB12[-k,]}}
 
 KD = data.frame(h=as.integer(),i=as.integer(),Salary=as.integer(),PredictedPoints=as.double())
 count=0
