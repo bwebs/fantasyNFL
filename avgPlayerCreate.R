@@ -1,5 +1,7 @@
 print('Creating avgPlayer and applying Bonuses')
 
+bonusCutoff = 7
+
 if (fdPoints) {
   print('Applying FanDuel weights')
   num_weights = length(unique(playerScrapeMerge$Source))
@@ -45,4 +47,8 @@ bonuses = ifelse(rep(dlBonus,length(avgPlayer$Key)),avgPlayer$deepBonus,0) +
 
 avgPlayer$mean = (1+bonuses)*avgPlayer$mean.weight
 
+# Added safety blanket from over-evaluation
+avgPlayer$cutoffHit = ifelse(avgPlayer$mean - avgPlayer$mean.weight > bonusCutoff, TRUE, FALSE)
+avgPlayer$mean = ifelse(avgPlayer$cutoffHit, avgPlayer$mean.weight + 7, avgPlayer$mean)
+                        
 write.csv(avgPlayer,paste0('Exports/week',week.prompt,'_avgPlayerWithMaddentest.csv'), row.names=FALSE)

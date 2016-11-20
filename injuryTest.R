@@ -19,12 +19,16 @@ injuryList = function() {
   df$Position = as.character(substr(df$V1,regexpr(',',df$V1)+2,nchar(as.character(df$V1))))
   df$InjuryStatus = as.character(df$V2)
   
+  
+  
   df = df[,c('Name','Position','InjuryStatus')]
   str(df)
   
   df = convertPositions(df)
   df = addNameRM(df)
   df = createKey(df)
+  
+  df = df[!(df$Key == 'WRjarvislandry'),]
 
   return(df)
 }
